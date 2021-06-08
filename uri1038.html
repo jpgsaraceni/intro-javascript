@@ -1,0 +1,60 @@
+<!DOCTYPE html />
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Lanches</title>
+</head>
+<body>
+    <table>
+    <tr>
+      <th>Código</th>
+      <th>Especificação</th>
+      <th>Preço</th>
+      <th>Quantidade</th>
+    </tr>
+    <tr>
+      <th>1</th>
+      <th>Cachorro Quente</th>
+      <th>R$4,00</th>
+      <th><input type="number" id="preco_cachorro"></th>
+    </tr>
+    <tr>
+      <th>2</th>
+      <th>X-Salada</th>
+      <th>R$4,50</th>
+      <th><input type="number" id="preco_salada"></th>
+    </tr>
+    <tr>
+      <th>3</th>
+      <th>X-Bacon</th>
+      <th>R$5,00</th>
+      <th><input type="number" id="preco_bacon"></th>
+    </tr>
+    <tr>
+      <th>4</th>
+      <th>Torrada Simples</th>
+      <th>R$2,00</th>
+      <th><input type="number" id="preco_torrada"></th>
+    </tr>
+    <tr>
+      <th>5</th>
+      <th>Refrigerante</th>
+      <th>R$1,50</th>
+      <th><input type="number" id="preco_refrigerante"></th>
+    </tr>
+    </table>
+    <button onclick=calcular()>
+     Finalizar
+    </button>
+    <p>Preço total: R$<span id="precoFinal"></span></p>
+
+    <script>
+        let menu = [4, 4.5, 5, 2, 1.5];
+        let quantidade = document.querySelectorAll("input");
+        function calcular(){
+        let total = menu[0]*quantidade[0].value + menu[1]*quantidade[1].value + menu[2]*quantidade[2].value + menu[3]*quantidade[3].value + menu[4]*quantidade[4].value;
+        document.getElementById("precoFinal").innerHTML = total.toFixed(2);
+        }
+    </script>
+</body>
+</html>
