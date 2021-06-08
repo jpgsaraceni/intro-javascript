@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let A = Number(prompt("Digite o valor de A:"));
 let B = Number(prompt("Digite o valor de B:"));

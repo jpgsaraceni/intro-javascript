@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let dias = prompt("Informe o tempo em dias");
 let anos = 0;

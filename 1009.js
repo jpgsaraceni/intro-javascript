@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let nome = prompt("Informe o nome do funcionário:");
 let fixo = Number(prompt("Informe o salário fixo do funcionário:"));

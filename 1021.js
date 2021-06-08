@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let valor = prompt("Informe o valor total:");
 let valorOriginal = valor;

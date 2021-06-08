@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let distancia = prompt("Digite a distância:");
 

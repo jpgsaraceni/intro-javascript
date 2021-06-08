@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let A = prompt("Digite a nota A:");
 let B = prompt("Digite a nota B:");

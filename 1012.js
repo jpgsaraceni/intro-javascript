@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 const PI = 3.14159;
 let A = parseFloat(prompt("Digite o valor de A:"));

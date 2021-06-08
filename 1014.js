@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let distanciaTotal = Number(prompt("Informe a distância percorrida, em km:"));
 let consumoTotal = Number(prompt("Informe o consumo total de combustível:"));

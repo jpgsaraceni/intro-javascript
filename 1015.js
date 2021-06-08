@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let x1 = Number(prompt("Digite a coordenada x1:"));
 let y1 = Number(prompt("Digite a coordenada y1:"));

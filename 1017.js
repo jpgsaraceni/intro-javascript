@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let tempo = prompt("Informe o tempo da viagem (em horas):");
 let velocidade = prompt("Informe a velocidade média da viagem (em km/h):")

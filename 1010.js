@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let cod1 = prompt("Informe o código da peça 1:");
 let quant1 = Number(prompt("Informe a quantidade de peças 1:"));

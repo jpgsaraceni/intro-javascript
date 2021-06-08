@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let numFuncionario = prompt("Informe o número do funcionário:");
 let horasTrabalhadas = prompt("Informe o número de horas trabalhadas:");

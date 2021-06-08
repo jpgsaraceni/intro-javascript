@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let tempoSeg = prompt("Informe o tempo em segundos:");
 let horas = 0;

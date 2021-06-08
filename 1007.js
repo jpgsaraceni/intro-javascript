@@ -1,4 +1,4 @@
-JAVASCRIPT
+
 
 let A = prompt("Digite o número A:");
 let B = prompt("Digite o número B:");
